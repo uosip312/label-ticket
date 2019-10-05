@@ -21,10 +21,10 @@
         <div class="table-wrapper">
             <div class="table-title">
                 <div class="row">
-                    <div class="col-sm-6">
-                        <h2>Administrar <b>Productos</b></h2>
+                    <div class="col-sm-9">
+                        <h2>Impresion de Tickets <b>Alberto Arnaud Auto Parts</b></h2>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-3">
                         <a href="#addProductModal" class="btn btn-success" data-toggle="modal"><i class="material-icons">&#xE147;</i> <span>Nuevo producto</span></a>
                     </div>
                 </div>
@@ -50,8 +50,11 @@
             <div class='outer_div'></div>
             <!-- Carga de datos ajax aqui -->
 
-
+		<footer class="sticky container">
+			Soluciones Tecnologicas YC, SRL. (Edison de la Cruz) | 2019®
+		</footer>
         </div>
+		
     </div>
     <!-- Add Modal HTML -->
     <?php include("html/modal_add.php");?>
