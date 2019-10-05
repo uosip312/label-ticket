@@ -10,7 +10,7 @@ if($action == 'ajax'){
 
 	$tables="tblprod";
 	$campos="*";
-	$sWhere=" tblprod.prod_name LIKE '%".$query."%'";
+	$sWhere="tblprod.prod_code LIKE '%".$query."%' OR tblprod.prod_name LIKE '%".$query."%'";
 	$sWhere.=" order by tblprod.prod_name";
 	
 	
